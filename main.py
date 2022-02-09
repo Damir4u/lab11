@@ -11,6 +11,8 @@ screen.tracer(0)
 player = Player()
 screen.listen()
 screen.onkey(key="Up", fun=player.up)
+screen.onkey(key="Down", fun=player.down)
+screen.title("Хандрико,Едельбаев,Суендыков,Алькенов,Бондаренко")
 
 car = CarManager()
 level = Level()
