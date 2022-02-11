@@ -5,6 +5,7 @@ FONT = ("Courier", 24, "normal")
 FONT2 = ("Courier", 10, "normal")
 turtle.write("Алькенов, Бондаренко, Едельбаев, Суендыков, Хандрико", align="center", font=FONT2)
 
+
 class Level(Turtle):
     def __init__(self):
         super().__init__()

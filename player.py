@@ -4,6 +4,7 @@ MOVE_UPDISTANCE = 10
 MOVE_DOWNDISTANCE = -10
 FINISH_LINE_Y = 280
 
+
 class Player(Turtle):
     def __init__(self):
         super().__init__()

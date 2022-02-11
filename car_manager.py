@@ -3,7 +3,6 @@ import random
 COLORS = ["red", "orange", "yellow", "blue", "purple"]
 MOVE_INCREMENT = 10
 
-
 class CarManager:
     def __init__(self, ):
         self.cars = []
