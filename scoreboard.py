@@ -3,6 +3,8 @@ import turtle
 ALIGNMENT = 'Left'
 FONT = ("Courier", 24, "normal")
 FONT2 = ("Courier", 10, "normal")
+turtle.ht()
+turtle.goto(0, 0)
 turtle.write("Алькенов, Бондаренко, Едельбаев, Суендыков, Хандрико", align="center", font=FONT2)
 
 
