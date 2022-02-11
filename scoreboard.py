@@ -1,6 +1,9 @@
 from turtle import Turtle
-ALIGNMENT = 'left'
+import turtle
+ALIGNMENT = 'Left'
 FONT = ("Courier", 24, "normal")
+FONT2 = ("Courier", 10, "normal")
+turtle.write("Алькенов, Бондаренко, Едельбаев, Суендыков, Хандрико", align="center", font=FONT2)
 
 
 class Level(Turtle):

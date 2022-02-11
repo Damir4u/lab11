@@ -1,7 +1,7 @@
 from turtle import Turtle
 STARTING_POSITION = (0, -280)
-MOVE_DISTANCE = 10
-MOVE_DDISTANCE = -10
+MOVE_UPDISTANCE = 10
+MOVE_DOWNDISTANCE = -10
 FINISH_LINE_Y = 280
 
 
@@ -17,7 +17,7 @@ class Player(Turtle):
         self.goto(STARTING_POSITION)
 
     def up(self):
-        self.forward(MOVE_DISTANCE)
+        self.forward(MOVE_UPDISTANCE)
 
     def down(self):
-        self.forward(MOVE_DDISTANCE)
+        self.forward(MOVE_DOWNDISTANCE)
