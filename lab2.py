@@ -30,7 +30,7 @@ for i in range(3):
     name = "Кинозал №" + str(i+1)
     names.append(name)
 root = Tk()
-root.geometry("300x250")
+root.geometry("100x138")
 root.title("Бронирование мест")
 for i in range(3):
     but = Button(root, text=names[i],  # текст кнопки
