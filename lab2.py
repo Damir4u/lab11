@@ -26,13 +26,13 @@ def for_knopki():
 
 
 names = []
-for i in range(10):
-    name = "Кинозал №" + str(i)
+for i in range(3):
+    name = "Кинозал №" + str(i+1)
     names.append(name)
 root = Tk()
 root.geometry("300x250")
 root.title("Бронирование мест")
-for i in range(10):
+for i in range(3):
     but = Button(root, text=names[i],  # текст кнопки
                  background="#ccc",  # фоновый цвет кнопки
                  foreground="#555",  # цвет текста
