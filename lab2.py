@@ -21,13 +21,13 @@ def for_knopki():
             but.bind("<Button-1>", changeBut)
             # but.bind("<Button-1>", lambda event, but=but: changeBut(event, but))
             but.grid(row=i, column=j)
-        lab = Label(root, text="ряд " + str(i))
+        lab = Label(root, text="ряд " + str(i + 1))
         lab.grid(row=i, column=(j + 1))
 
 
 names = []
 for i in range(3):
-    name = "Кинозал №" + str(i+1)
+    name = "Кинозал №" + str(i + 1)
     names.append(name)
 root = Tk()
 root.geometry("100x138")
